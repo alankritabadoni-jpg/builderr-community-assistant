@@ -28,7 +28,7 @@ Copy env.example to .env and enter your key:
 cp env.example .env
 (Supports OPENAI_API_KEY or GROQ_API_KEY)
 
-###3. Run the Assistant (CLI)
+### 3. Run the Assistant (CLI)
 
 python3 assistant.py
 To run on a custom dataset:
@@ -36,12 +36,12 @@ To run on a custom dataset:
 python3 assistant.py --input path/to/posts.csv --output path/to/results.csv
 
 
-###4. Optional: Streamlit Review Dashboard
+### 4. Optional: Streamlit Review Dashboard
 To visually review post evaluations and drafts side-by-side in your browser:
 
 streamlit run app.py
 
-##Repository Files
+## Repository Files
 assistant.py: Core CLI batch processor and LLM decision engine
 
 app.py: Streamlit human review interface for evaluating drafts
